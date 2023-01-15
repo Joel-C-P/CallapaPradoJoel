@@ -1,1 +1,37 @@
+ body{
+    background-color: rgb(254, 242, 239);
+ }
+
+ header{
+    background-color: rgb(102, 152, 101);
+    padding: 30px;
+    text-align: center;
+    width: 400;
+    margin: 0px auto 0px auto;
+    font-size: 50px;
+    color: aliceblue;
+ }
  
+ .contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: up;
+    flex-wrap: wrap;
+ }
+.imagenes {
+
+    width: 800px; 
+    height: 800px;
+}
+img{
+    margin: 100px auto 0px 30px;  
+    width: 700px;
+}
+.formulario{
+    margin: 100px auto 0px auto;  
+    width: 300px;
+}
+
+
+ 
+

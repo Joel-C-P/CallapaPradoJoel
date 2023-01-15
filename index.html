@@ -14,38 +14,43 @@
 
     <!--cabecera-->
     <header>
-
+        <h2>Informe de Incidencia</h2>
     </header>
 
     <!--Formulario de usuario-->
-    <main>
-
-        <form action="#">
-            <div class="itemform">
-                <label for="incidencia">Tipo de incidencia </label>
-                <select name="incidencias" id="incidencia">
-                    <option value="">--Porfavor, elegia el tipo--</option>
+    <div class="contenedor">
+        <div class="imagenes">
+            <img src="http://c.files.bbci.co.uk/48DD/production/_107435681_perro1.jpg" id = "changeimg" alt="pero">
+        </div>
+        <div class="formulario">
+            <form action="#">
+                <div class="itemform">
+                    <label for="incidencia">Tipo de incidencia </label>
+                    <select name="incidencias" id="incidencia">
+                        <option value="">--Porfavor, elegia el tipo--</option>
+                        
+                        <option value="distribucion">Distribucion</option>
+                        <option value="produccion">Produccion</option>
+                        <option value="oficina">Oficina</option>
+                    </select>
                     
-                    <option value="distribucion">Distribucion</option>
-                    <option value="produccion">Produccion</option>
-                    <option value="oficina">Oficina</option>
-                </select>
-            </div>
-
-            <div class="itemform">
-                <label for="numeroserie">Numero de serie: </label>
-                <input type="text" name="numeroserie" id="numeroserie" required>
-            </div>
-
-            
-            <div>
-                <input type="submit" value="Enviar Datos">
-            </div>
-
-
-        </form>
-
-    </main>
+                </div>
+    
+                <div class="itemform">
+                    <label for="numeroserie">Numero de serie: </label>
+                    <input type="text" name="numeroserie" id="numeroserie" required>
+                </div>
+    
+                
+                <div>
+                    <input type="submit" value="Enviar Datos">
+                </div>
+    
+    
+            </form>
+        </div>
+        
+    </div>
 
     <!--pie de pagina-->
     <footer>
