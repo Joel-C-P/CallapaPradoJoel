@@ -11,12 +11,43 @@
 <body>
 
     <!--Contenido-->
+
+    <!--cabecera-->
     <header>
 
     </header>
+
+    <!--Formulario de usuario-->
     <main>
 
+        <form action="#">
+            <div class="itemform">
+                <label for="incidencia">Tipo de incidencia </label>
+                <select name="incidencias" id="incidencia">
+                    <option value="">--Porfavor, elegia el tipo--</option>
+                    
+                    <option value="distribucion">Distribucion</option>
+                    <option value="produccion">Produccion</option>
+                    <option value="oficina">Oficina</option>
+                </select>
+            </div>
+
+            <div class="itemform">
+                <label for="numeroserie">Numero de serie: </label>
+                <input type="text" name="numeroserie" id="numeroserie" required>
+            </div>
+
+            
+            <div>
+                <input type="submit" value="Enviar Datos">
+            </div>
+
+
+        </form>
+
     </main>
+
+    <!--pie de pagina-->
     <footer>
 
     </footer>
