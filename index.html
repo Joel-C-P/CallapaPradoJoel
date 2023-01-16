@@ -27,7 +27,7 @@
                 <div class="itemform">
                     <label for="incidencia">Tipo de incidencia </label>
                     <select name="incidencias" id="incidencia">
-                        <option value="">--Porfavor, elegia el tipo--</option>
+                        <option value="">Tipo</option>
                         
                         <option value="distribucion">Distribucion</option>
                         <option value="produccion">Produccion</option>
@@ -40,9 +40,14 @@
                     <label for="numeroserie">Numero de serie: </label>
                     <input type="text" name="numeroserie" id="numeroserie" required>
                 </div>
+
+                <button id="show-description-btn">Mostrar Descripción</button>
+                    <div id="description-area" style="display: none;">
+                      <textarea id="description-input"></textarea>
+                    </div>
     
                 
-                <div>
+                <div class="itemform">
                     <input type="submit" value="Enviar Datos">
                 </div>
     
