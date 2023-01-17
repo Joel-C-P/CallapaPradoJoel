@@ -20,14 +20,14 @@
     <!--Formulario de usuario-->
     <div class="contenedor">
         <div class="imagenes">
-            <img src="http://c.files.bbci.co.uk/48DD/production/_107435681_perro1.jpg" id = "changeimg" alt="pero">
+            <img src="./img/opcion.jpg" id = "changeimg" alt="un perrito">
         </div>
         <div class="formulario">
-            <form action="#">
+            <form action="#" id="formEntrada">
                 <div class="itemform">
                     <label for="incidencia">Tipo de incidencia </label>
-                    <select name="incidencias" id="incidencia">
-                        <option value="">Tipo</option>
+                    <select  id="incidencia">
+                        <option value="0">Tipo</option>
                         
                         <option value="distribucion">Distribucion</option>
                         <option value="produccion">Produccion</option>
@@ -41,14 +41,16 @@
                     <input type="text" name="numeroserie" id="numeroserie" required>
                 </div>
 
-                <button id="show-description-btn">Mostrar Descripción</button>
-                    <div id="description-area" style="display: none;">
-                      <textarea id="description-input"></textarea>
-                    </div>
+                <button type="button" onclick="showDescription()">Mostrar Descripción</button>
+                       <br>
+                       
+                    <textarea id="description" style="display: none;"></textarea>
+                       <br>
+                       
     
                 
                 <div class="itemform">
-                    <input type="submit" value="Enviar Datos">
+                    <input type="submit" value="Enviar Datos" id="enviar">
                 </div>
     
     
@@ -61,6 +63,8 @@
     <footer>
 
     </footer>
+
+    <script src="./js/formulario.js"></script>
 
 </body>
 </html>
