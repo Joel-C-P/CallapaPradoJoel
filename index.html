@@ -37,11 +37,16 @@
                 </div>
     
                 <div class="itemform">
-                    <label for="numeroserie">Numero de serie: </label>
-                    <input type="text" name="numeroserie" id="numeroserie" required>
+                    
+
+
+                    <label for="serialNumber">Número de serie:</label>
+                    <input type="text" id="serialNumber" oninput="removeError()">
+                    
+                     
                 </div>
 
-                <button type="button" onclick="showDescription()">Mostrar Descripción</button>
+                <button type="button" id="botondescripcion" onclick="showDescription()">Mostrar Descripción</button>
                        <br>
                        
                     <textarea id="description" style="display: none;"></textarea>
@@ -49,12 +54,16 @@
                        
     
                 
-                <div class="itemform">
-                    <input type="submit" value="Enviar Datos" id="enviar">
+                <div class="enviarboton">
+                    
+
+                    <button type="button" id="botonenviar"value="Enviar Datos" onclick="submitData()">Enviar Datos</button>
                 </div>
     
     
             </form>
+
+            <p id="errorMessage" style="display: none; color: red;"></p>
         </div>
         
     </div>

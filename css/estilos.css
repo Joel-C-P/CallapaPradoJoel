@@ -46,7 +46,7 @@ select{
     font-weight: 200;
     font-size:18px;
 }
-input{
+button{
     display: inline;
     font-family: 'Poppins',sans-serif;
     width: 236px;
@@ -56,13 +56,14 @@ input{
     font-weight: 200;
     font-size:18px;
 }
-input[type="submit"]{
+#botonenviar, #botondescripcion{
     background-color: #fd0c49;
     color: #fff;
     font-weight: 400;
     border-radius: 5px;
     width: 100%;
 }
+
 
 
  
